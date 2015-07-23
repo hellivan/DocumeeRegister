@@ -13,7 +13,7 @@ app.config(['$routeProvider', '$documeeApiProvider',
             })
             .otherwise({redirectTo: '/register'});
 
-        $documeeApiProvider.setHostAddress("http://localhost:8000/");
+        $documeeApiProvider.setHostAddress("http://documee-protoype.herokuapp.com/");
     }]);
 
 
