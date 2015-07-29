@@ -1,0 +1,10 @@
+<div class="container">
+    <div class="panel panel-primary">
+        <div class="panel-heading">Register for API-key</div>
+        <div class="panel-body">
+            <div ng-if="!state" ng-include="'templates/partials/register-form.html'"></div>
+            <div ng-if="state === 'success'" ng-include="'templates/partials/success-form.html'"></div>
+            <div ng-if="state === 'error'" ng-include="'templates/partials/error-form.html'"></div>
+        </div>
+    </div>
+</div>
